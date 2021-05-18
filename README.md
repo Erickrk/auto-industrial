@@ -56,7 +56,7 @@
  </p>
  
 # Proposta de projeto
-Com o objetivo de contextualizar o projeto, foi recebida uma lista de entradas e atuadores, que foram levadas em consideração na construção da solução. Alguns tiveram seus nomes trocados na construção do programa, na maioria dos casos optando por uniformizar as mesmas. O programa está disponível, na íntegra, na pasta [Código](https://github.com/Erickrk/auto-industrial/tree/main/Código) deste repositório e em PDF neste [link](code.pdf). Uma exceção ocorreu com o arquivo "Archive.prj", pesado demais para o Github ele está disponível [aqui](https://drive.google.com/drive/folders/1T5UyivfZ1hsSZ5lfcdE6__ubLG7W6EIX?usp=sharing). A correspondência entre as variáveis passadas, as da cena no Factory IO e as usadas no código estão na imagem abaixo:
+&ensp;&ensp;&ensp;&ensp;Com o objetivo de contextualizar o projeto, foi recebida uma lista de entradas e atuadores, que foram levadas em consideração na construção da solução. Alguns tiveram seus nomes trocados na construção do programa, na maioria dos casos optando por uniformizar as mesmas. O programa está disponível, na íntegra, na pasta [Código](https://github.com/Erickrk/auto-industrial/tree/main/Código) deste repositório e em PDF neste [link](code.pdf). Uma exceção ocorreu com o arquivo "Archive.prj", pesado demais para o Github ele está disponível [aqui](https://drive.google.com/drive/folders/1T5UyivfZ1hsSZ5lfcdE6__ubLG7W6EIX?usp=sharing). A correspondência entre as variáveis passadas, as da cena no Factory IO e as usadas no código estão na imagem abaixo:
 
 <p align="center">
     <img src="images/tags_factory.png"
@@ -133,7 +133,7 @@ Com o objetivo de contextualizar o projeto, foi recebida uma lista de entradas e
 ## Protocolo de comunicação
 &nbsp;&nbsp;&nbsp;&nbsp;Para a comunicação entre a IHM e o CLP foi escolhido o protocolo MODBUS/TCP. Esse protocolo já é muito bem consolidado no mercado e apresenta o modelo cliente-servidor [[3]](https://www.youtube.com/watch?v=7EhaynO6B8I&feature=youtu.be). Adicionalmente, o protocolo tem como característica a configuração simples e a fácil conversão para outros padrões. 
     
-O MODBUS/TCP foi originalmente desenvolvido para os padrões RS232/485, porém na nossa solução pretendemos utilizar a Ethernet, pela mesma ser suportada por ambos os dispositivos, conforme os seus respectivos manual e catálogo, disponíveis em [[4]](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj7q66l7tHwAhVErJUCHVO9BxIQFjABegQIAxAD&url=https%3A%2F%2Fwww.altus.com.br%2Fsuporte%2Fdownload%2Fbaixararquivo%2FAwMLVQ%3D%3D%2F2&usg=AOvVaw1clxJuwROPzcRbBm9jxN2P) e [[5]](https://www.altus.com.br/suporte/download/baixararquivo/AwIEXw==/2).
+&ensp;&ensp;&ensp;&ensp;O MODBUS/TCP foi originalmente desenvolvido para os padrões RS232/485, porém na nossa solução pretendemos utilizar a Ethernet, pela mesma ser suportada por ambos os dispositivos, conforme os seus respectivos manual e catálogo, disponíveis em [[4]](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj7q66l7tHwAhVErJUCHVO9BxIQFjABegQIAxAD&url=https%3A%2F%2Fwww.altus.com.br%2Fsuporte%2Fdownload%2Fbaixararquivo%2FAwMLVQ%3D%3D%2F2&usg=AOvVaw1clxJuwROPzcRbBm9jxN2P) e [[5]](https://www.altus.com.br/suporte/download/baixararquivo/AwIEXw==/2).
     
     
 # Metodologia
@@ -153,15 +153,15 @@ O MODBUS/TCP foi originalmente desenvolvido para os padrões RS232/485, porém n
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Factory I/O é um software de simulação 3D para o estudo de tecnologias de automação, mais comumente o CLP. A situação problema foi gerada a partir de um dos seus cenários nativos, cujo criação é inspiradas nas aplicações industriais mais comuns. Além disso, é possivel integrar o MasterTool IEC XE com ele, para que seja realizada uma simulação mais verossímil do código e do supervisório empregados. </p>
 
 ## Código e Lista de Tags
-&nbsp;&nbsp;&nbsp;&nbsp;Foram utilizados Timers do tipo Pulse para permitir que as esteiras 2 e 3 do sistema prolongassem seu funcionamento para além do pulso da borda, que ocorria com a passagem do sensor. Adicionalmente, foram utilizadas bordas de subida e descida para capturar a chegada e saída das peças pelos sensores e contadores crescentes para atender a exigência de tocar um alarme caso uma das duas linhas atingisse a produção de vinte peças.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Foram utilizados Timers do tipo Pulse para permitir que as esteiras 2 e 3 do sistema prolongassem seu funcionamento para além do pulso da borda, que ocorria com a passagem do sensor. Adicionalmente, foram utilizadas bordas de subida e descida para capturar a chegada e saída das peças pelos sensores e contadores crescentes para atender a exigência de tocar um alarme caso uma das duas linhas atingisse a produção de vinte peças.
 
-Conforme apontado anteriormente, o código e a lista de tags estão disponíveis na pasta [Código](https://github.com/Erickrk/auto_industrial_2021/tree/master/Código) deste repositório e em PDF neste [link](code.pdf) ; como no arquivo "Archive.prj", disponível [aqui](https://drive.google.com/drive/folders/1T5UyivfZ1hsSZ5lfcdE6__ubLG7W6EIX?usp=sharing).
+&ensp;&ensp;&ensp;&ensp;Conforme apontado anteriormente, o código e a lista de tags estão disponíveis na pasta [Código](https://github.com/Erickrk/auto_industrial_2021/tree/master/Código) deste repositório e em PDF neste [link](code.pdf); assim como o arquivo "Archive.prj", disbonibilizado fora do Github, [aqui](https://drive.google.com/drive/folders/1T5UyivfZ1hsSZ5lfcdE6__ubLG7W6EIX?usp=sharing).
 
 ## Dificuldades na Integração
 </p>
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Foi realizada com sucesso a integração entre o Factory IO e o Master Tool. Nesse contexto, ocorreram algumas divergências entre os códigos anteriormente apresentados na disciplina e, por consequência, comentários feitos em aula pelo aluno. Uma dessas divergências é com relação aos sensores, que precisaram ser considerados normalmente abertos, apesar de serem de feixe de luz, já que apresentavam um comportamento incoerente quando considerados normalmente fechados.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Além disso, observamos uma divergência em relação à situação inicialmente apresentada, o tempo de usinagem da CNC1 e CNC2 estavam iguais, portanto foi necessário adicionar temporizadores, com o objetivo de evitar conflitos e acúmulos das peças na esteira de saída. Alguns ajustes mais finos também poderiam ser feitos caso o controle da CNC também fosse programado, porém essa questão não foi solicitada para este projeto. Como algumas variáveis das CNC não estavam sendo controladas por nosso programa as vezes simulação no Factory apresentava comportamentos excêntricos.
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Além disso, observamos uma divergência em relação à situação inicialmente apresentada, o tempo de usinagem da CNC1 e CNC2 estavam iguais, portanto foi necessário adicionar temporizadores, com o objetivo de evitar conflitos e acúmulos das peças na esteira de saída. Alguns ajustes mais finos também poderiam ser feitos caso o controle da CNC também fosse programado, porém essa questão não foi solicitada para este projeto. Como algumas variáveis das CNC não estavam sendo controladas por nosso programa as vezes simulação no Factory apresentava comportamentos excêntricos.
 
 # Conclusão
 
