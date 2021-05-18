@@ -56,7 +56,7 @@
  </p>
  
 # Proposta de projeto
-&nbsp;&nbsp;&nbsp;&nbsp;Com o objetivo de contextualizar o projeto, foi recebida uma lista de entradas e atuadores, que foram levadas em consideração na construção da solução. Alguns tiveram seus nomes trocados na construção do programa, na maioria dos casos optando por uniformizar as mesmas. O programa está disponível, na íntegra, na pasta "Código" deste repositório e em PDF neste [link](code.pdf). Uma exceção ocorreu com o arquivo "Archive.prj", pesado demais para o Github ele está disponível [aqui](https://drive.google.com/drive/folders/1T5UyivfZ1hsSZ5lfcdE6__ubLG7W6EIX?usp=sharing). A correspondência entre as variáveis passadas, as da cena no Factory IO e as usadas no código estão na imagem abaixo:
+Com o objetivo de contextualizar o projeto, foi recebida uma lista de entradas e atuadores, que foram levadas em consideração na construção da solução. Alguns tiveram seus nomes trocados na construção do programa, na maioria dos casos optando por uniformizar as mesmas. O programa está disponível, na íntegra, na pasta [Código](https://github.com/Erickrk/auto-industrial/tree/main/Código) deste repositório e em PDF neste [link](code.pdf). Uma exceção ocorreu com o arquivo "Archive.prj", pesado demais para o Github ele está disponível [aqui](https://drive.google.com/drive/folders/1T5UyivfZ1hsSZ5lfcdE6__ubLG7W6EIX?usp=sharing). A correspondência entre as variáveis passadas, as da cena no Factory IO e as usadas no código estão na imagem abaixo:
 
 <p align="center">
     <img src="images/tags_factory.png"
@@ -161,7 +161,7 @@ Conforme apontado anteriormente, o código e a lista de tags estão disponíveis
 </p>
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;Foi realizada com sucesso a integração entre o Factory IO e o Master Tool. Nesse contexto, ocorreram algumas divergências entre os códigos anteriormente apresentados na disciplina e, por consequência, comentários feitos em aula pelo aluno. Uma dessas divergências é com relação aos sensores, que precisaram ser considerados normalmente abertos, apesar de serem de feixe de luz, já que apresentavam um comportamento incoerente quando considerados normalmente fechados.
 
-&nbsp;&nbsp;&nbsp;&nbspAlém disso, observamos uma divergência em relação à situação inicialmente apresentada, o tempo de usinagem da CNC1 e CNC2 estavam iguais, portanto foi necessário adicionar temporizadores, com o objetivo de evitar conflitos e acúmulos das peças na esteira de saída. Alguns ajustes mais finos também poderiam ser feitos caso o controle da CNC também fosse programado, porém essa questão não foi solicitada para este projeto. Como algumas variáveis das CNC não estavam sendo controladas por nosso programa as vezes simulação no Factory apresentava comportamentos excêntricos.
+&nbsp;&nbsp;&nbsp;&nbsp;Além disso, observamos uma divergência em relação à situação inicialmente apresentada, o tempo de usinagem da CNC1 e CNC2 estavam iguais, portanto foi necessário adicionar temporizadores, com o objetivo de evitar conflitos e acúmulos das peças na esteira de saída. Alguns ajustes mais finos também poderiam ser feitos caso o controle da CNC também fosse programado, porém essa questão não foi solicitada para este projeto. Como algumas variáveis das CNC não estavam sendo controladas por nosso programa as vezes simulação no Factory apresentava comportamentos excêntricos.
 
 # Conclusão
 
