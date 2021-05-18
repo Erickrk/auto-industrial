@@ -138,7 +138,7 @@ O MODBUS/TCP foi originalmente desenvolvido para os padrões RS232/485, porém n
     
 # Metodologia
 
-&nbsp;&nbsp;&nbsp;&nbsp;Para a construção do código, foram usados como referência [[8](https://www.youtube.com/watch?v=tYJcJnaB8Tg&feature=youtu.be)], que é o vídeo da cena no Factory IO funcionando e [9](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi63YXyqvvvAhUdGbkGHWnsD88QFjABegQIBRAD&url=https%3A%2F%2Fwww.altus.com.br%2Fsuporte%2Fdownload%2Fbaixararquivo%2FAwEBXQ%3D%3D%2F2&usg=AOvVaw0EL58cT6buirM9HBKLUfaF), o Manual de utilização do Master Tool IEC XE MT8500, que contém informações de muita relevância, como o funcionamento de contadores e interrupções por borda. Na construção do supervisório, foi usada como base a aula dada sobre o assunto.
+&nbsp;&nbsp;&nbsp;&nbsp;Para a construção do código, foram usados como referência [[8](https://www.youtube.com/watch?v=tYJcJnaB8Tg&feature=youtu.be)], que é o vídeo da cena no Factory IO funcionando e [[9](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi63YXyqvvvAhUdGbkGHWnsD88QFjABegQIBRAD&url=https%3A%2F%2Fwww.altus.com.br%2Fsuporte%2Fdownload%2Fbaixararquivo%2FAwEBXQ%3D%3D%2F2&usg=AOvVaw0EL58cT6buirM9HBKLUfaF)], o Manual de utilização do Master Tool IEC XE MT8500, que contém informações de muita relevância, como o funcionamento de contadores e interrupções por borda. Na construção do supervisório, foi usada como base a aula dada sobre o assunto.
 </p>
 
 ## Softwares utilizados
